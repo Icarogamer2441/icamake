@@ -1,0 +1,12 @@
+$ comment!
+$ how do i execute a command?
+
+EXECMD echo "Hello world!"
+
+$ lets create an macro! (you can execute an macro executing the icamake.py file and putting the macro name has the arg 1)
+
+@Macro test
+    EXECMD echo "I'm an macro!"
+@End
+
+$ execute using "python icamake.py test"
